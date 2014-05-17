@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "怎样在github上建立博客(细节)"
-data: 2014-05-17
+title:  "怎样在github上建立博客(细节)"
+data: 2014-05-17 20:22
 categories:
--Notes
+- Notes
 tags:
--github
--blog
+- github
+- blog
+
 ---
 
 ###怎么建一个博客在github上?
