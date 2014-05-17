@@ -1,3 +1,14 @@
+---
+layout: post
+title: "怎样在github上建立博客(细节)"
+data: 2014-05-17
+categories:
+-Notes
+tags:
+-github
+-blog
+---
+
 ###怎么建一个博客在github上?
 最开始是再qq空间里面发表日志和说说,不过觉得qq空间的功能太弱智,虽然它有html(同样弱智)和代码高亮功能.
 
