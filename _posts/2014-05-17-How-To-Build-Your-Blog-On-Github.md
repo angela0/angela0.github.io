@@ -22,5 +22,5 @@ tags:
 
 下面说一下在搭建的过程中会遇到的几个问题：
 <hr/>
--如果你按照官方的详细步骤做完最后一步之后，发现打开yourusername.github.com（yourusername是你的github用户名，下同），只有一个hello world，如果你不懂点html的东西的话，你可能到这里就没了辙，不过没有关系，你可以到别人的github上面fork一下别人的blog，比如<a href="https://github.com/jekyll/jekyll/wiki/sites" target="_blank">github.com/jekyll/jekyll/wiki/sites</a>,里面给出了一些别人博客地址，还有博客托管的github地址,你可以直接去下载下来，根据自己的喜好，添加或者删除一些东西，可以自己用了。说道这里，要提醒的是，如果你不喜欢折腾，那还是老老实实找个新浪博客/博客园之类的用吧，其实他们做的也都听不错的。
+* 如果你按照官方的详细步骤做完最后一步之后，发现打开yourusername.github.com（yourusername是你的github用户名，下同），只有一个hello world，如果你不懂点html的东西的话，你可能到这里就没了辙，不过没有关系，你可以到别人的github上面fork一下别人的blog，比如<a href="https://github.com/jekyll/jekyll/wiki/sites" target="_blank">github.com/jekyll/jekyll/wiki/sites</a>,里面给出了一些别人博客地址，还有博客托管的github地址,你可以直接去下载下来，根据自己的喜好，添加或者删除一些东西，可以自己用了。说道这里，要提醒的是，如果你不喜欢折腾，那还是老老实实找个新浪博客/博客园之类的用吧，其实他们做的也都听不错的。
 
