@@ -31,7 +31,9 @@ tags:
 	Perhaps you should specify a branch such as 'master'.
 	fatal: The remote end hung up unexpectedly
 	error: failed to push some refs to 'file:///xxxxxxx.git'
+	
 解决方法很简单,使用
+
 	git push origin master
 
 * 先写这么多吧，有什么的话想起来再写。
