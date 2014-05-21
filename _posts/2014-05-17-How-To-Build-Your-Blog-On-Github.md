@@ -26,11 +26,11 @@ tags:
 * git 的使用问题，如果你用windows下的git工具的话，可能不会有什么大的问题，照着教程一步一步做下去就okay。另外当你遇到不能上传的情况时，先把远程仓库pull下来再push。
 * 第一次将本地的文件push到github上面,可能会出现这种问题:
 
-	git push
-	No refs in common and none specified; doing nothing.
-	Perhaps you should specify a branch such as 'master'.
-	fatal: The remote end hung up unexpectedly
-	error: failed to push some refs to 'file:///xxxxxxx.git'
+      git push
+      No refs in common and none specified; doing nothing.
+	  Perhaps you should specify a branch such as 'master'.
+	  fatal: The remote end hung up unexpectedly
+	  error: failed to push some refs to 'file:///xxxxxxx.git'
 	
 解决方法很简单,使用
 
