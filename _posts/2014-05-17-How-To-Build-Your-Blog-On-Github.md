@@ -25,6 +25,7 @@ tags:
 * 如果你按照官方的详细步骤做完最后一步之后，发现打开username.github.com（username是你的github用户名，下同），只有一个hello world，如果你不懂点html的东西的话，你可能到这里就没了辙，不过没有关系，你可以到别人的github上面fork一下别人的blog，比如[github.com/jekyll/jekyll/wiki/sites](https://github.com/jekyll/jekyll/wiki/sites),里面给出了一些别人博客地址，还有博客托管的github地址,你可以直接去下载下来，根据自己的喜好，添加或者删除一些东西，可以自己用了。说到这里，要提醒的是，如果你不喜欢折腾，那还是老老实实找个新浪博客/博客园之类的用吧，其实他们做的也都挺不错的。
 * git 的使用问题，如果你用windows下的git工具的话，可能不会有什么大的问题，照着教程一步一步做下去就okay。另外当你遇到不能上传的情况时，先把远程仓库pull下来再push。
 * 第一次将本地的文件push到github上面,可能会出现这种问题:
+
 	git push
 	No refs in common and none specified; doing nothing.
 	Perhaps you should specify a branch such as 'master'.
