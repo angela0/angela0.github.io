@@ -1,5 +1,5 @@
 ---
-layout: post
+layout:  post
 title: "怎么在ubuntu上面搭建hustOj和hustVoj"
 data: &times;
 - Notes
