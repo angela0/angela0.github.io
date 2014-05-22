@@ -36,5 +36,14 @@ tags:
 
 	git push origin master
 
+* 如果在git push时候遇到下面这种情况：
 
+		To git@github.com:angela0/angela0.github.io.git
+		 ! [rejected]        master -> master (non-fast-forward)
+		 error: failed to push some refs to 'git@github.com:angela0/angela0.github.io.git'
+		 To prevent you from losing history, non-fast-forward updates were rejected
+		 Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+		 'Note about fast-forwards' section of 'git push --help' for details.
+	你可以先执行git pull 将远程跟本地同步之后再git push
+	
 * 先写这么多吧，有什么的话想起来再写。
