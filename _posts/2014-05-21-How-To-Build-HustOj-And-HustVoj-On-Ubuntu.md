@@ -1,7 +1,8 @@
 ---
 layout:  post
 title: "怎么在ubuntu上面搭建hustOj和hustVoj"
-data: &times;
+data: 2014-05-21
+categories:
 - Notes
 tags: 
 - Ubuntu
