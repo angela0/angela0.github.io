@@ -95,7 +95,7 @@ RSA算法，密钥学领域最牛叉的算法之一，由RSA公司的三位创�
 
 ###7. 链接分析算法(Link Analysis)
 <hr/>
-![link](../media/c4.jpg)
+![link](http://www.angelas.cc/media/c4.jpg)
 
 在因特网时代，不同入口间关系的分析至关重要。从搜索引擎和社交网站，到市场分析工具，都在不遗余力地寻找因特网的正真构造。
 
@@ -110,7 +110,7 @@ RSA算法，密钥学领域最牛叉的算法之一，由RSA公司的三位创�
 ###8. 比例微积分算法(Proportional Integral Derivative Algorithm)
 <hr/>
 
-![proportional](../media/c5.jpg)
+![proportional](http://www.angelas.cc/media/c5.jpg)
 
 飞机，汽车，电视，手机，卫星，工厂和机器人等等事物中都有这个算法的身影。
 
