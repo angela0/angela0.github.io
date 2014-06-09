@@ -44,6 +44,8 @@ Reddit有篇帖子介绍了算法对我们现在生活的重要性，以及哪�
 
 那么又是哪10个计算机算法造就了我们今天的生活呢？请看下面的表单，排名不分先后：
 
+
+
 ####1. 归并排序(MERGE SORT)，快速排序(QUICK SORT)和堆积排序(HEAP SORT)
 <hr/>
 ![Alt sort](http://www.angelas.cc/media/c2.jpg)
