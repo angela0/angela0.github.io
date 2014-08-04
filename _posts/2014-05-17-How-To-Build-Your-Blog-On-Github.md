@@ -83,6 +83,6 @@ tags:
          
   5. 这样应该就可以了
   
-  
+  6. 如果使用Mac或者windows的话，可以到[mac](http://mac.github.com)和[windows](http://windows.github.com)页面下载github工具，十分方便
 
 *先写这么多吧，有什么的话想起来再写。
