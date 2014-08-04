@@ -61,15 +61,15 @@ tags:
   
   你第一次向github远程仓库提交代码之前要先配置一下git如果不使用ssh key验证的话每次提交都要输入帐号密码，比较麻烦，所以最好使用ssh key。
   
-  a. 执行如下代码：
+  a.执行如下代码：
         
          ssh-keygen -t rsa -C "your_email@youremail.com"
         
      其中your_email@youremail.com是你的邮箱地址
   
-  b. 在github的 Accoun settings 里面找到SSH keys -> Add SSH key, title无所谓，但最好能表示出是哪个电脑上的,然后把刚才在 ~/.ssh/ 文件夹中生成的x.pub里面的内容拷贝进去。
+  b.在github的 Accoun settings 里面找到SSH keys -> Add SSH key, title无所谓，但最好能表示出是哪个电脑上的,然后把刚才在 ~/.ssh/ 文件夹中生成的x.pub里面的内容拷贝进去。
   
-  c. 保存后可以通过下面命令来测试一下：
+  c.保存后可以通过下面命令来测试一下：
   
          ssh -T git@github.com
      
@@ -77,12 +77,12 @@ tags:
        
          You've successfully authenticated, but GitHub does not provide shell access
          
-  d. 设置username和email
+  d.设置username和email
   
          git config --global user.name "your name"
          git config --global user.email "your_email@youremail.com"
          
-  e. 这样应该就可以了
+  e.这样应该就可以了
 
 ------
 6.如果使用Mac或者windows的话，可以到[mac](http://mac.github.com)和
