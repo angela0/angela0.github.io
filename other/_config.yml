@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:categories/:title/
-url: http://angela0.github.com/other
+url: /other/
 author: Angela
 pygments: true
 safe: true
