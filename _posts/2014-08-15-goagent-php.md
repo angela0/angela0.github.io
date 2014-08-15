@@ -3,7 +3,7 @@ layout: post
 title: "怎么使用goagent代理的php模式"
 data: 2014-08-15
 categories:
-- note
+- notes
 tags:
 - goagent
 - php模式
