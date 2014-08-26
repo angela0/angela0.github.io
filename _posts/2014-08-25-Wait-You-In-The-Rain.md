@@ -3,7 +3,7 @@ layout: post
 title: "等你，在雨中"
 data: 2014-08-25
 categories:
-- 美文
+- ShakeLike
 tags:
 - 等你在雨中
 
