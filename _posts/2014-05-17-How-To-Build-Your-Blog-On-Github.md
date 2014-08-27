@@ -45,18 +45,22 @@ error: failed to push some refs to 'file:///xxxxxxx.git'
 
 解决方法很简单,使用
 
-	git push origin master
+{% highlight c %}
+git push origin master
+{% endhighlight %}
 	
 ------
 4.如果在git push时候遇到下面这种情况：
 
-		To git@github.com:angela0/angela0.github.io.git
-		 ! [rejected]        master -> master (non-fast-forward)
-		 error: failed to push some refs to 'git@github.com:angela0/angela0.github.io.git'
-		 To prevent you from losing history, non-fast-forward updates were rejected
-		 Merge the remote changes (e.g. 'git pull') before pushing again.  See the
-		 'Note about fast-forwards' section of 'git push --help' for details.
+	{% highlight c %}
+	To git@github.com:angela0/angela0.github.io.git
+	! [rejected]        master -> master (non-fast-forward)
+	error: failed to push some refs to 'git@github.com:angela0/angela0.github.io.git'
+	To prevent you from losing history, non-fast-forward updates were rejected
+	Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+	'Note about fast-forwards' section of 'git push --help' for details.
 	你可以先执行git pull 将远程跟本地同步之后再git push
+	{% endgihtlight%}
 
 ----	
 5.远程验证
@@ -65,29 +69,61 @@ error: failed to push some refs to 'file:///xxxxxxx.git'
   
   a.执行如下代码：
         
-         ssh-keygen -t rsa -C "your_email@youremail.com"
-        
+     ssh-keygen -t rsa -C "your_email@youremail.com"
      其中your_email@youremail.com是你的邮箱地址
   
   b.在github的 Accoun settings 里面找到SSH keys -> Add SSH key, title无所谓，但最好能表示出是哪个电脑上的,然后把刚才在 ~/.ssh/ 文件夹中生成的x.pub里面的内容拷贝进去。
   
   c.保存后可以通过下面命令来测试一下：
   
-         ssh -T git@github.com
-     
+     ssh -T git@github.com
      如果成功会出现下面提示：
-       
-         You've successfully authenticated, but GitHub does not provide shell access
+     You've successfully authenticated, but GitHub does not provide shell access
          
   d.设置username和email
   
-         git config --global user.name "your name"
-         git config --global user.email "your_email@youremail.com"
+     git config --global user.name "your name"
+     git config --global user.email "your_email@youremail.com"
          
   e.这样应该就可以了
 
 ------
 6.如果使用Mac或者windows的话，可以到[mac](http://mac.github.com)和
   [windows](http://windows.github.com)页面下载github工具，十分方便
+
+{% highlight c%}
+
+# include <stdio.h>
+
+int main(void)
+{
+	return 0;
+}
+{% endhight %}
+
+---
+
+
+	{% highlight c%}
+
+	# include <stdio.h>
+	
+	int main(void)
+	{
+		return 0;
+	}
+	{% endhight %}
+
+---
+
+{% highlight c%}
+
+	# include <stdio.h>
+	
+	int main(void)
+	{
+		return 0;
+	}
+{% endhight %}
 
 *先写这么多吧，有什么的话想起来再写。
