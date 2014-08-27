@@ -2,7 +2,7 @@ markdown: rdiscount
 permalink: /:categories/:title/
 url: http://angela0.github.com
 author: Angela
-pygments: true
+highlighter: pygments
 safe: true
 paginate: 16
 
