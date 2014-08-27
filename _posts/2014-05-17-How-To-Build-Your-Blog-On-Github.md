@@ -36,11 +36,11 @@ tags:
 3.第一次将本地的文件push到github上面,可能会出现这种问题:
 
 {% highlight c %}
-      git push
-      No refs in common and none specified; doing nothing.
-	  Perhaps you should specify a branch such as 'master'.
-	  fatal: The remote end hung up unexpectedly
-	  error: failed to push some refs to 'file:///xxxxxxx.git'
+git push
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'file:///xxxxxxx.git'
 {% endhighlight %}
 
 解决方法很简单,使用
