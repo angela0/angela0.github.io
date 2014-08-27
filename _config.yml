@@ -2,7 +2,7 @@ markdown: redcarpet
 permalink: /:categories/:title/
 url: http://angela0.github.com
 author: Angela
-highlighter: pygments
+pygments: true
 safe: true
 paginate: 16
 
