@@ -91,18 +91,6 @@ git push origin master
 6.如果使用Mac或者windows的话，可以到[mac](http://mac.github.com)和
   [windows](http://windows.github.com)页面下载github工具，十分方便
 
-{% highlight c%}
-
-# include <stdio.h>
-
-int main(void)
-{
-	return 0;
-}
-{% endhight %}
-
----
-
 
 	{% highlight c%}
 
