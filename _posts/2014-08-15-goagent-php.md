@@ -42,7 +42,7 @@ tags:
 	  	order allow,deny
 	  	allow from all
 
-* ．htaccess在这里还可以去广告，加入如下代码：
+* .htaccess在这里还可以去广告，加入如下代码：
 
 		LayoutIgnoreURI *
 
@@ -56,6 +56,8 @@ tags:
 		ErrorDocument 404 /404.html
 
 	`/` 代表的是你的站点的根目录，另外根目录下面应该真的有 **401.html** 、 **402.html** 等文件
+
+　　更新一点，当注册完成后拿到ftp的登录名和密码后(这个会发到你的邮箱里面)无法登录ftp，总提示登录错误，原因是帐号默认没有开启ftp登录功能，在 `主机情报登录` 一栏中开启即可，需要等5~10分钟。
 
 ---
 
