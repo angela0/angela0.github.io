@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
+//@import url(http://fonts.googleapis.com/css?family=Galdeano);
+@font-face {
+  font-family: 'Galdeano';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Galdeano Regular'), local('Galdeano-Regular'), url(fonts/Galdeano.woff) format('woff');
+}
 @media screen {
 .container {
 width:auto;
