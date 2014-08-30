@@ -3,7 +3,7 @@
 function alter_a_tag (tagname) {
 	var a = document.getElementsByTagName(tagname);
 	for (var i = 0; i < a.length; i++) {
-		if(a[i].class != 'noblank'){
+		if(a[i].classList != 'noblank'){
 			a[i].target = '_blank';
 		}
 	};
