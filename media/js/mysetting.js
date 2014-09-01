@@ -2,7 +2,6 @@
 
 function alter_a_tag (tagname) {
 	var a = document.getElementsByTagName(tagname);
-    document.write(a[0].classList[0])
 	for (var i = 0; i < a.length; i++) {
 		if (findstr(a[i].classList, 'noblank')) {
 			a[i].target = '_blank';
