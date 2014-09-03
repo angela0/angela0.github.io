@@ -14,7 +14,7 @@ tags:
 
 1. 支持Live Preview(0.956版本不完善，有时候不能正确定位Bug)
 
-2. Systax Highlighting(自动识别语言，建议将代码块放在两个 `---` 之间)
+2. Systax Highlighting(自动识别语言，建议将代码块放在两个 `---` 之间，不能自动缩进)
 
 3. 支持 Github Markdown
 
@@ -29,21 +29,6 @@ tags:
 8. 自动识别链接
 
 　　这里只里里列举了一部分个人觉得不错的功能，还有其他的功能不再一一列举，可以到其官网 [remarkableapp](http://remarkableapp.net/)了解更多。
-
----
-	# include <stdio.h>
-	
-	int main(void)
-	{
-		int i = 0, j = 1;
-		print("%d\n", i+j);
-		return 0;
-	}
----
-
-- [ ] To Do
-- [X] Done 
-
 
 　　不足的地方在上面的括号中已经列出，还有一点在Ubuntu中他的保存提示信息让人不爽。相信在以后的版本中会更加的强大。
 
