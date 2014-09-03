@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdow
 permalink: /:categories/:title/
 url: http://angelas.cc
 author: Angela
