@@ -12,7 +12,7 @@ tags:
 
 ####本文章翻译自 [It's F.O.S.S.](http://itsfoss.com/fix-update-errors-ubuntu-1404/)，可以自由转载，但需标明原文出处以及译文出处。
 
-![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/1.jpg)
+![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/1.jpeg)
 
 　　 谁没有在升级Ubuntu的时候遇到个错误呢？Update 错误在Ubuntu或者其他基于Ubuntu的发行版本中随处可见。虽然产生这些错误的原因众多，但解决方法很简单。在这篇文章中，我们将会看到经常遇到的各种类型的update错误和怎么修复它们。
 
@@ -58,11 +58,11 @@ E:Some index files failed to download. They have been ignored, or old ones used 
 
 一个常见的错误是 *failed to download package files error *，如下图：
 
-![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/3.jpg)
+![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/3.jpeg)
 
 这个很容易通过将源改为Main server解决。到 Software & Updates 里面将下载服务器改为 Main server。
 
-![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/4.jpg)
+![](/pic/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/4.jpeg)
 
 ---
 ###Partial upgrade error
