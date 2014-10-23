@@ -1,0 +1,14 @@
+body {
+    font-family: cursive;
+    
+}
+
+h1 {
+    text-align: center;
+    text-decoration-color: currentColor;
+    color: green;
+}
+
+h2 {
+    text-decoration-color: currentColor;
+}
