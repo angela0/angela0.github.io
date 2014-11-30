@@ -7,7 +7,7 @@ layout: default
 {% if page.categories %}
 <span class="categories">
  in {% for cat in page.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a class='noblank' href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 </span>, 
 {% endif %}
@@ -15,7 +15,7 @@ layout: default
 <span class="tags">
   tags:
   {% for tag in page.tags %}
-  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+  <a class='noblank' href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
@@ -27,7 +27,7 @@ layout: default
 <section class="meta">
 
 <span class="author">
-  <a href="{{ site.url }}">{{ site.author }}</a>
+  <a class='noblank' href="{{ site.url }}">{{ site.author }}</a>
 </span>
 <span class="time">
   /
