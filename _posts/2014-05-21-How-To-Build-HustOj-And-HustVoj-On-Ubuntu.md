@@ -6,7 +6,7 @@ categories:
 - Notes
 tags: 
 - Ubuntu
-- hust
+- hustoj
 - virtualOnlineJudge
 - oj
 
