@@ -60,7 +60,7 @@ background-color: #f0f0f0;
 
 .highlight pre {border-top: 1px solid #ccc;
 border-bottom: 1px solid #ccc}
-blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
+blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee; background-color: lightcyan}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em; background-color: #fff;}
