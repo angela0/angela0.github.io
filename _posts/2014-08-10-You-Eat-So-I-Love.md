@@ -3,7 +3,7 @@ layout: post
 title: "你吃故我爱"
 data: 2014-08-10
 categories:
-- 美文
+- shakelike
 tags:
 - 你吃故我爱
 
