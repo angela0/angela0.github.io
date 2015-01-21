@@ -1,0 +1,14 @@
+#This file was generated automatically at 2013-03-19 22:08:09.
+#Please visit http://ubuntu9.com for more infomation.
+
+deb ftp://ftp.sjtu.edu.cn/ubuntu trusty main restricted universe multiverse
+deb-src ftp://ftp.sjtu.edu.cn/ubuntu trusty main restricted universe multiverse
+deb ftp://ftp.sjtu.edu.cn/ubuntu trusty-security main restricted universe multiverse
+deb-src ftp://ftp.sjtu.edu.cn/ubuntu trusty-security main restricted universe multiverse
+deb ftp://ftp.sjtu.edu.cn/ubuntu trusty-updates main restricted universe multiverse
+deb-src ftp://ftp.sjtu.edu.cn/ubuntu trusty-updates main restricted universe multiverse
+deb ftp://ftp.sjtu.edu.cn/ubuntu trusty-proposed main restricted universe multiverse
+deb-src ftp://ftp.sjtu.edu.cn/ubuntu trusty-proposed main restricted universe multiverse
+deb ftp://ftp.sjtu.edu.cn/ubuntu trusty-backports main restricted universe multiverse
+deb-src ftp://ftp.sjtu.edu.cn/ubuntu trusty-backports main restricted universe multiverse
+
