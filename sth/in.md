@@ -10,11 +10,11 @@ title: "信息安全不可错过的30门实验"
 <br/>
 SEEDLabs是一套完整的信息安全实验，涵盖本科信息安全教学中的大部分基本原理。项目组2002年由杜文亮教授创建，目前开发了30个实验，几百所大学已采用。实验楼翻译制作的SEEDLabs在线实验课永久免费并开源。
 
-SEEDLabs官网：http://www.cis.syr.edu/~wedu/seed/index.html
+SEEDLabs官网：[http://www.cis.syr.edu/~wedu/seed/index.html](http://www.cis.syr.edu/~wedu/seed/index.html)
 
-SEEDLabs中文版开源项目：https://github.com/shiyanlou/seedlab
+SEEDLabs中文版开源项目：[https://github.com/shiyanlou/seedlab](https://github.com/shiyanlou/seedlab)
 
-SEEDLabs实验室链接：http://www.shiyanlou.com/teachers/51209
+SEEDLabs实验室链接：[http://www.shiyanlou.com/teachers/51209](http://www.shiyanlou.com/teachers/51209)
 
 <br/>
 <hr/>
@@ -94,4 +94,4 @@ SEEDLabs实验室链接：http://www.shiyanlou.com/teachers/51209
 
 <br/>
 <hr/>
-SEEDLabs实验室链接：http://www.shiyanlou.com/teachers/51209
+SEEDLabs实验室链接：[http://www.shiyanlou.com/teachers/51209](http://www.shiyanlou.com/teachers/51209)
