@@ -47,7 +47,7 @@ Reddit有篇帖子介绍了算法对我们现在生活的重要性，以及哪�
 <br/>
 ####1. 归并排序(MERGE SORT)，快速排序(QUICK SORT)和堆积排序(HEAP SORT)
 <hr/>
-![Alt sort](http://www.angelas.cc/media/c2.jpg)
+![Alt sort](../media/c2.jpg)
 
 哪个排序算法效率最高？这要看情况。这也就是我把这3种算法放在一起讲的原因，可能你更常用其中一种，不过它们各有千秋。
 
@@ -78,7 +78,7 @@ Reddit有篇帖子介绍了算法对我们现在生活的重要性，以及哪�
 ####4. RSA非对称加密算法
 <hr/>
 
-![rsa](http://www.angelas.cc/media/c3.jpg)
+![rsa](../media/c3.jpg)
 
 毫不夸张地说，如果没有这个算法对密钥学和网络安全的贡献，如今因特网的地位可能就不会如此之高。现在的网络毫无安全感，但遇到钱相关的问题时我们必需要保证有足够的安全感，如果你觉得网络不安全，肯定不会傻乎乎地在网页上输入自己的银行卡信息。
 
@@ -99,7 +99,7 @@ RSA算法，密钥学领域最牛叉的算法之一，由RSA公司的三位创�
 <br/>
 ####7. 链接分析算法(Link Analysis)
 <hr/>
-![link](http://www.angelas.cc/media/c4.jpg)
+![link](../media/c4.jpg)
 
 在因特网时代，不同入口间关系的分析至关重要。从搜索引擎和社交网站，到市场分析工具，都在不遗余力地寻找因特网的正真构造。
 
@@ -115,7 +115,7 @@ RSA算法，密钥学领域最牛叉的算法之一，由RSA公司的三位创�
 ####8. 比例微积分算法(Proportional Integral Derivative Algorithm)
 <hr/>
 
-![proportional](http://www.angelas.cc/media/c5.jpg)
+![proportional](../media/c5.jpg)
 
 飞机，汽车，电视，手机，卫星，工厂和机器人等等事物中都有这个算法的身影。
 
