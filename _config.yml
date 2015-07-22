@@ -1,5 +1,5 @@
 markdown: redcarpet
-permalink: /:categories/:title/
+permalink: /:title/
 url: http://iqueens.cc
 author: Angela
 pygments: true
