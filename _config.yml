@@ -1,6 +1,6 @@
 markdown: redcarpet
-permalink: /:categories/:title/
-url: http://angelas.cc
+permalink: /:title/
+url: http://iqueens.cc
 author: Angela
 pygments: true
 safe: true

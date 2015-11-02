@@ -20,9 +20,9 @@ layout: page
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a class='noblank' href="/"><前页</a>
+    <a class="noblank" href="/"><前页</a>
     {% else %}
-    <a class='noblank' href="/page{{paginator.previous_page}}"><前页</a>
+    <a class="noblank" href="/page{{paginator.previous_page}}"><前页</a>
     {% endif %}
   {% else %}
     <span class="previous disabled"><前页</span>
@@ -31,14 +31,14 @@ layout: page
       {% if paginator.page == 1 %}
       <span class="current-page">1</span>
       {% else %}
-      <a class='noblank' href="/">1</a>
+      <a class="noblank" href="/">1</a>
       {% endif %}
 
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
       <span class="current-page">{{count}}</span>
       {% else %}
-      <a class='noblank' href="/page{{count}}">{{count}}</a>
+      <a class="noblank" href="/page{{count}}">{{count}}</a>
       {% endif %}
     {% endfor %}
 
