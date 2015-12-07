@@ -2,7 +2,7 @@ markdown: redcarpet
 permalink: /:title/
 url: http://iqueens.cc
 author: Angela
-pygments: true
+highlight: pygments
 safe: true
 paginate: 16
 
