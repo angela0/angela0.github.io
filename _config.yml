@@ -4,3 +4,5 @@ url: http://iqueens.cc
 author: Angela
 highlight: pygments
 safe: true
+paginate: 16
+gems: [jekyll-paginate]
