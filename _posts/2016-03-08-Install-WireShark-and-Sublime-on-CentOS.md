@@ -38,15 +38,16 @@ tags:
 5. 给 sublime 加个快捷方式以及图标，因为图标它自带的有，不用到处找了。在 `/usr/share/applications/` 下新建文件 `sublime.desktop`，内容如下：
 
 
-    [Desktop Entry]    
+	[Desktop Entry]
     Name=Sublime
-    Comment=A Text Editor
+	Comment=A Text Editor
     GenericName=Sublime
     Exec=/bin/sublime %U
     Icon=sublime
     Type=Application
     StartupNotify=true
     MimeType=text/plain;
+
 
 然后将 `/opt/sublime/Icon` 里面的各个分辨率文件夹下的png文件分别拷贝到 `/usr/share/icons/hicolor` 下对应分辨率文件夹下的 `apps` 文件夹里面。
 下次登陆应该就可以用了。
