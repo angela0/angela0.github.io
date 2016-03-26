@@ -10,12 +10,12 @@ tags:
 
 ---
 
-###<center>在Centos上配置hustoj</cetner>
+### <center>在Centos上配置hustoj</cetner>
 
 hustoj 是一套开源的在线判题系统， 自发布以来受到了许多好评。但是其官方发布的是基于Ubuntu(Linux)操作系统，许多Centos(Linux)用户可能觉得有点不方便。实际上，一般只要是基于某个Linux发行版本的，理论上在其他发行版本也可以运行。[官方wiki](https://github.com/zhblue/hustoj/wiki) 里面也有一部分Centos用户在配置过程中可能出现的问题，根据这篇wiki基本上就可以搭建出来可以运行的OJ系统。我根据昨天晚上在Centos6上搭建的过程，说明一些细节(这里假设将所有服务，包括数据库、web、判题系统，放在了同一个服务器，至于分布式服务器大同小异)。
 
 
-####准备工作
+#### 准备工作
 
 第一步肯定是要把服务器搭建起来，确保可以运行，需要以下软件：
 
@@ -30,7 +30,7 @@ hustoj的web前端使用php，所以需要安装php及相关插件
 
 ---
 
-####配置hustoj
+#### 配置hustoj
 
 下载hustoj系统文件，可以在[这里](https://github.com/zhblue/hustoj)下载原版，也可以在[这里](https://github.com/angela0/zzuliacm)下载我们基于hustoj进行二次开发的系统。
 
@@ -43,7 +43,7 @@ hustoj的web前端使用php，所以需要安装php及相关插件
 
 ---
 
-####最后的最后
+#### 最后的最后
 
 我在安装好以后，使用命令 `/etc/init.d/judged start` (因为第一次安装好之后需要手动启动服务)，但是报告如下错误
 	
@@ -61,6 +61,6 @@ hustoj的web前端使用php，所以需要安装php及相关插件
 
 ---
 
-####最后的最后的最后
+#### 最后的最后的最后
 
 关于64位Centos，我没有进行尝试，官方wiki里面有对其解释。
