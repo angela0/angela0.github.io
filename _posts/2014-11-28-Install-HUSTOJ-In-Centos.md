@@ -10,7 +10,7 @@ tags:
 
 ---
 
-### <center>在Centos上配置hustoj</cetner>
+### <center>在Centos上配置hustoj</center>
 
 hustoj 是一套开源的在线判题系统， 自发布以来受到了许多好评。但是其官方发布的是基于Ubuntu(Linux)操作系统，许多Centos(Linux)用户可能觉得有点不方便。实际上，一般只要是基于某个Linux发行版本的，理论上在其他发行版本也可以运行。[官方wiki](https://github.com/zhblue/hustoj/wiki) 里面也有一部分Centos用户在配置过程中可能出现的问题，根据这篇wiki基本上就可以搭建出来可以运行的OJ系统。我根据昨天晚上在Centos6上搭建的过程，说明一些细节(这里假设将所有服务，包括数据库、web、判题系统，放在了同一个服务器，至于分布式服务器大同小异)。
 
