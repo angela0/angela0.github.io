@@ -1,4 +1,13 @@
-#Linux 中的那些 limits
+---
+layout: post
+title:  "Linux 中的那些 limits"
+data: 2017-03-09
+categories:
+- Linux
+tags:
+- limits
+- ulimit
+---
 
 Linux 是一个多用户操作系统，所以必须要有一种机制来限制每个用户能够使用的资源，这就是 limit 存在的意义。
 

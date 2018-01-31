@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2015-04-02
 title: "信息安全不可错过的30门实验"
 

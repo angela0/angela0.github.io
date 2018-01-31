@@ -1,11 +1,6 @@
 ---
-layout: default
+layout: layout
 ---
 
-<section class="post">
-{{ content }}
-</section>
-{% if page.comments %}
-{% include comments.md %}
-{% endif %}
-
+{% assign __ = site.data.languages[site.language] %}
+{% include page.html %}

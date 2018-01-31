@@ -1,9 +1,15 @@
-## IP Protocol Number
+---
+layout: post
+title:  "IP Numbers -- Protocol 号"
+data: 2018-01-31
+categories:
+- Net
+tags:
+- Net
+- IP
+---
 
-IP 头部有一个 8 bits 的字段 `Protocol` 用来指明其上层协议
-
-下面是 IANA 分配的 IP 协议字段号
-
+IP 头部有一个 8 bits 的字段 `Protocol` 用来指明其上层协议，下面是 IANA 分配的 IP 协议字段号
 
 协议号 | 协议关键字 | 协议 | IPv6 头部扩展 | 参考
  :---: | :---: | :---: | :---: | :---:
