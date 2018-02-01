@@ -13,7 +13,7 @@ IP 头部有一个 8 bits 的字段 `Protocol` 用来指明其上层协议，下
 
 协议号 | 协议关键字 | 协议 | IPv6 头部扩展 | 参考
  :---: | :---: | :---: | :---: | :---:
-0 | HOPOPT | IPv6 Hop-by-Hop Option | Y |  | [RFC8200]
+0 | HOPOPT | IPv6 Hop-by-Hop Option | Y | [RFC8200]
 1 | ICMP | Internet Control Message |  | [RFC792]
 2 | IGMP | Internet Group Management |  | [RFC1112]
 3 | GGP | Gateway-to-Gateway |  | [RFC823]
@@ -161,3 +161,11 @@ IP 头部有一个 8 bits 的字段 `Protocol` 用来指明其上层协议，下
 253 |  | Use for experimentation and testing | Y | [RFC3692]
 254 |  | Use for experimentation and testing | Y | [RFC3692]
 255 | Reserved |  |  | [Internet_Assigned_Numbers_Authority]
+
+
+
+<style>
+table th:first-of-type, th:nth-of-type(4) {
+    width: 70px;
+}
+</style>

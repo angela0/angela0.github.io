@@ -3,7 +3,7 @@ layout: post
 title: openSUSE 使用初体验
 date: 2015-03-26
 categories:
-- notes
+- Notes
 tags:
 - openSUSE
 
@@ -37,6 +37,7 @@ cpu: Intel i5 3317U
 4. 因为我原来是 Win+Ubuntu，将Ubuntu替换为了openSUSE，安装完后，grub启动项里面没有了 Windows（<span style="color: red">不知道为什么！！！</span>）,应该更新一下 grub 就可以了，但是我没有找到类似Ubuntu那样的 update-grub 工具（但是更新grub版本肯定会更新grub的）
 
 5. 其他方面，跟别的发行版本差不多
+
 
 #### 善后
 

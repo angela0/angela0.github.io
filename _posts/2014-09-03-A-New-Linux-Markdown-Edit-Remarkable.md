@@ -3,7 +3,7 @@ layout: post
 title: "一款新的Linux平台Markdown编辑器---Remarkable"
 data: 2014-09-03
 categories:
-- notes
+- Notes
 tags:
 - markdown
 - Remarkable

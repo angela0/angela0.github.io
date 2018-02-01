@@ -12,7 +12,7 @@ tags:
 
 >> 本文章翻译自 [It's F.O.S.S.](http://itsfoss.com/fix-update-errors-ubuntu-1404/)，可以自由转载，但需标明原文出处以及译文出处。
 
-![](/media/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/1.jpeg)
+![](/assets/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/1.jpeg)
 
 谁没有在升级Ubuntu的时候遇到个错误呢？Update 错误在Ubuntu或者其他基于Ubuntu的发行版本中随处可见。虽然产生这些错误的原因众多，但解决方法很简单。在这篇文章中，我们将会看到经常遇到的各种类型的update错误和怎么修复它们。
 
@@ -56,7 +56,7 @@ sudo apt-get update
 
 另一种 *failed to download repository information errors* 是由于过期的 PPA，通常当你运行Update Manager的时候会出现如下图的错误：
 
-![](/media/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/2.png)
+![](/assets/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/2.png)
 
 你可以运行 `sudo apt-get update` 看看是哪个PPA造成的，然后将它从源列表里面删除了就好了。你可以参照 [failed to download repository information error](http://itsfoss.com/failed-to-download-repository-information-ubuntu-13-04/)这篇图示博文。
 
@@ -65,11 +65,11 @@ sudo apt-get update
 
 一个常见的错误是 *failed to download package files error *，如下图：
 
-![](/media/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/3.jpeg)
+![](/assets/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/3.jpeg)
 
 这个很容易通过将源改为Main server解决。到 Software & Updates 里面将下载服务器改为 Main server。
 
-![](/media/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/4.jpeg)
+![](/assets/img/2014-09-17-Fix-Various-Update-Errors-In-Ubuntu-14.04/4.jpeg)
 
 
 ### Partial upgrade error

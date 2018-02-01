@@ -31,7 +31,7 @@ tags:
 
 当在进行练习的时候，想要拖动一个 `EditText` 到界面上的时候，出现了下面的错误：
 
-![1](/media/img/2014-08-26-Android-Question-and-Answer/1.jpg)
+![1](/assets/img/2014-08-26-Android-Question-and-Answer/1.jpg)
 
 这里是Eclipse提示的错误信息:
 ```
@@ -41,4 +41,4 @@ Exception details are logged in Window > Show View > Error Log
 
 我当时使用的API是 `API 20: Android 4.4W` (因为系统应该默认选择你的SDK中存在的最高版本的API)，就会出现上面的错误，具体是什么原因呢？我的猜想是 Android 4.4W 是Android穿戴设备上的操作系统，可能不支持输入文本，搜索之，果然如此。解决方法是，如果你的SDK中含有其他版本的API(如下图)，切换一下就好了；没有的话，嘿嘿，下一个吧。
 
-![2](/media/img/2014-08-26-Android-Question-and-Answer/2.jpg)
+![2](/assets/img/2014-08-26-Android-Question-and-Answer/2.jpg)

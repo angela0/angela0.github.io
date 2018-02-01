@@ -3,7 +3,7 @@ layout: post
 title: "空灵如泻"
 date: 2014-12-10
 categories:
-- shakelike
+- ShakeLike
 tags:
 - 空灵如泻
 - Bella
