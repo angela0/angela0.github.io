@@ -3,7 +3,7 @@ layout: post
 title: "修复ubuntu14.04中的更新错误"
 data: 2014-09-17
 categories:
-- translate
+- Translate
 tags:
 - ubuntu
 - update-error
