@@ -1,8 +1,5 @@
 ---
-title: links
 layout: page
-comments: yes
 ---
 
-暂无
-
+[Awesome-Linux-Software](http://isister.cc/Awesome-Linux-Software/README_zh-CN)

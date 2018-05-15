@@ -128,7 +128,8 @@ menu:
   tags: /tags/
   about: /about/
   # sitemap: /sitemap.xml
-  commonweal: /404.html
+  # commonweal: /404.html
+  links: /links
 
 
 # Enable/Disable menu icons.
@@ -147,6 +148,7 @@ menu_icons:
   archives: calendar
   sitemap: sitemap
   commonweal: heartbeat
+  links: link
 
 
 # ---------------------------------------------------------------
@@ -201,7 +203,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: PT Mono
     size:
 
 

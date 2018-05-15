@@ -2,6 +2,7 @@
 layout: post
 title: "空灵如泻"
 date: 2014-12-10
+copyright: false
 categories:
 - ShakeLike
 tags:

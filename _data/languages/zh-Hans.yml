@@ -3,10 +3,11 @@ title:
   category: 分类
   tag: 标签
   schedule: 日程表
-  archives: 归档
+  archives: 时间线
   categories: 分类
   tags: 标签
   about: 关于
+  links: 链接
 
 author: 博主
 
@@ -20,6 +21,7 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 404
+  links: 链接
 
 sidebar:
   overview: 站点概览
