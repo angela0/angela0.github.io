@@ -46,7 +46,9 @@
     {% endif %}
     {% comment %} endshow {% endcomment %}
 
+    {% unless post.hide %}
     {% include _macro/post-collapse.html %}
+    {% endunless %}
 
   {% endfor %}
 
