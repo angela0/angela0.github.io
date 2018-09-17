@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一个比较好用的终端录制工具"
+title:  "一个比较好用的终端录制工具 asciinema"
 data: 2018-05-15
 categories:
 - DailyLinuxCmd
