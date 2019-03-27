@@ -333,7 +333,9 @@
 
     <div>
       {% unless is_index %}
-        {% include _macro/post-copyright.html %}
+        {% if post.author == nil or post.author == site.author %}
+          {% include _macro/post-copyright.html %}
+        {% endif %}
       {% endunless %}
     </div>
 
