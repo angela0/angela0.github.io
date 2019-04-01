@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "除数为常量时的快速取余法：优于编译器优化和libdivide"
-data: 2019-03-28
+data: 2019-03-31
 categories:
 - Translate
 tags:
@@ -110,7 +110,11 @@ static inline bool is_divisible(uint32_t n, uint64_t M) {
 
 **延伸阅读**：[Faster Remainder by Direct Computation: Applications to Compilers and Software Libraries](https://arxiv.org/abs/1902.01961), Software: Practice and Experience (to appear)
 
-**后续文章**：[关于除数为常量时的快速取余的更多乐趣](https://lemire.me/blog/2019/02/20/more-fun-with-fast-remainders-when-the-divisor-is-a-constant/)，在这里我讨论了一些更精细的东西。
+**后续文章**：[关于除数为常量时的快速取余的更多乐趣](https://lemire.me/blog/2019/02/20/more-fun-with-fast-remainders-when-the-divisor-is-a-constant/)，在这里我讨论了一些更精细的东西。（译注：这篇博文的翻译在 [这里](/translate/2019/04/01/More-Fun-With-Fast-Remainders/)）
 
 [^footnote]: N 是多少？如果被除数 n 和 除数 d 都是 32 位无符号整数，那你可以选择 N = 64。但这不是最小的可能值。最小的可能值在 [我们论文](https://arxiv.org/abs/1902.01961) 的第二个算法里给出了，但是有点数学化（注：论文中的符号和这篇博客里不太一样，N 变成了 F）。
 
+
+---
+
+本文翻译自 Daniel Lemire 的文章，原文发表于其 [博客](https://lemire.me/blog/2019/02/08/faster-remainders-when-the-divisor-is-a-constant-beating-compilers-and-libdivide/)。
