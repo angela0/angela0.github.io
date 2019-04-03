@@ -11,7 +11,7 @@ tags:
 
 我们可能经常会用到 Linux 内核源码，因此 CentOS 在仓库里提供了内核源码的支持。本文是 CentOS 官网的 HowTos，介绍了如何在 CentOS 里方便地下载内核源码。最初由 [JohnnyHughes](https://wiki.centos.org/JohnnyHughes) 创建了该 HowTos，现在由 [AlanBartlett](https://wiki.centos.org/AlanBartlett) and [AkemiYagi](https://wiki.centos.org/AkemiYagi) 维护。
 
-## 1. 可能你并不需要完整的内核源码
+## 可能你并不需要完整的内核源码
 
 如果你需要编译内核驱动（模块），那你真的并不需要完整的内核源码树。只需要安装 `kernel-devel` 包就可以了（当然，如果你确定需要完整的内核源码树，请参考第二章节）。
 
@@ -39,7 +39,7 @@ tags:
 在你安装了正确的 `kernel[-type]-devel-version.arch.rpm` 这样式的包之后，就可以编译你的模块了。这就应该可以正常工作了。如果没有，请反馈给模块开发者，因为所有新的内核模块的都应该这样设计。
 
 
-## 2. 如果你真的需要完整的内核源码
+## 如果你真的需要完整的内核源码
 
 不管什么吧，如果你真的需要，你也是可以获取到的。
 
