@@ -97,3 +97,8 @@ X509 使用 [ASN.1](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One) 
 - 证书可以验证公钥的所有者
 - 我们信任某个证书是因为我们信任签发该证书的 CA
 - 我们信任某个 CA 是因为 Apple/Google/Microsoft/其他 在服务器或者浏览器等等中添加了该 CA 的证书并信任这些证书
+
+
+---
+
+本文翻译自 [Chris Rehn](https://rehn.me/) 发表于其博客的文章，原文地址在 [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html)。
