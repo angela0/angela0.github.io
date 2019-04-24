@@ -17,7 +17,7 @@ safe: true
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: http://isister.cc
 baseurl:
-permalink: /:categories/:title/
+permalink: /posts/:title/
 
 # Pagination
 paginate: 10
