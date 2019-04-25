@@ -10,7 +10,7 @@ categories:
 
 大家都知道如何使用 `mv` 命令重命名一个文件。使用非常简单：
 
-```
+``` bash
 mv old_file_name new_file_name
 ```
 
@@ -23,7 +23,7 @@ rename 命令就像它的名字一样，就是重命名文件的，但它可以�
 
 使用泛式如下：
 
-```
+``` bash
 rename [options] perlexpr [files]
 ```
 
@@ -57,7 +57,7 @@ rename 's/ /_/g' *
 
 你有一些文件，名字类似 `my_file.xyz` 这样，当你想一次把它们都替换成 `my_file.abc` 这样。只需要：
 
-```
+``` bash
 rename 's/.xyz$/.abc/' *
 ```
 

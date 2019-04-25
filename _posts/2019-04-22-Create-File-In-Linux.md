@@ -14,7 +14,7 @@ categories:
 
 最常用的可能就是使用 `touch` 命令来创建一个空文件了。用起来超级简单：
 
-```
+``` bash
 touch filename
 ```
 
@@ -25,7 +25,7 @@ touch filename
 
 还有一个常用的方法是使用 `cat` 命令，配合重定向一起使用，可以直接向文件里写一些文本数据，当然你也可以不写入任何数据：
 
-```
+``` bash
 cat > filename.txt 
 ```
 
@@ -38,13 +38,13 @@ cat > filename.txt
 
 同样需要配合重定向一起使用。`echo` 命令的用途是向屏幕输出一段文本。如果配合重定向，我们就可以将这段文本直接写入文件中。如果文件不存在，就会新建：
 
-```
+``` bash
 echo "This is a sample text" > filename.txt
 ```
 
 如果你同样只想创建一个空白文件，则可以：
 
-```
+``` bash
 echo > file.txt
 ```
 
@@ -55,7 +55,7 @@ echo > file.txt
 
 所有的命令行编辑器，如 vi，nano，emacs 等等都可以创建一个新文件。如果你想创建一个空白文件，打开文件后就直接退出，否则可以输入一些文本后再退出。因为 nano 对新手比较友好，你可以使用 nano 来尝试：
 
-```
+``` bash
 nano file.txt
 ```
 

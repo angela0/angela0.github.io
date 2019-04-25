@@ -17,7 +17,7 @@ categories:
 
 输入命令：
 
-```
+``` bash
 # 这里的 r 是 route 的缩写，你使用 ip route 也是一样的
 ip r
 ```
@@ -32,7 +32,7 @@ default via 192.168.0.1 dev wlp58s0 proto dhcp metric 600
 
 有 default 那一行就是默认网关的信息。如果你只想要这一行，配合 grep 命令使用：
 
-```
+``` bash
 ip route | grep default
 ```
 
@@ -49,7 +49,7 @@ default via 192.168.0.1 dev wlp1s0 proto dhcp metric 600
 
 `route` 是一个比较老的命令了，现在大家都使用 `ip` 命令。你使用这个命令：
 
-```
+``` bash
 route -n
 ```
 
@@ -72,7 +72,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 `netstat` 命令是用来查看主机中的网络信息的（现在都用 `ss` 命令），其用法是：
 
-```
+``` bash
 netstat -r -n
 ```
 
