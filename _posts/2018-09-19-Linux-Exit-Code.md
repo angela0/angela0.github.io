@@ -3,7 +3,7 @@ layout: post
 title:  "Linux 系统上程序的退出码"
 data: 2018-09-19
 categories:
-- HandBook
+- Linux
 ---
 
 

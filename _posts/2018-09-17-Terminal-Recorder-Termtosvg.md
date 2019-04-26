@@ -3,7 +3,7 @@ layout: post
 title:  "另外一个比较好用的终端录制工具 termtosvg"
 data: 2018-09-17
 categories:
-- DailyLinuxCmd
+- Tools
 ---
 
 之前在 [一个比较好用的终端录制工具 asciinema](/dailylinuxcmd/2018/05/15/Terminal-Recorder-Asciinema/) 一篇中介绍了一个非常好用的终端录制工具，今天再给大家介绍另外一个 termtosvg。

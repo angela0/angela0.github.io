@@ -3,7 +3,7 @@ layout: post
 title:  "一个比较好用的终端录制工具 asciinema"
 data: 2018-05-15
 categories:
-- DailyLinuxCmd
+- Tools
 ---
 
 今天介绍一款终端录制及分享工具 asciinema。是的，它兼具录制、回放和分享功能。有个它你就可以愉快地和你的小伙伴分享你的操作了。

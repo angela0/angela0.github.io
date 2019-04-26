@@ -3,12 +3,11 @@ layout: post
 title: "Android 常见问题"
 data: 2014-08-26
 categories:
-- Android
+- Others
 tags:
-- Andriod开发
-- Android SDK更新
+- Andriod
+- Android SDK
 - EditText
-
 ---
 
 最近由于某些原因开始学习安卓开发，一开始就遇到了许多问题。尽管都是些小问题，但我觉得有必要把他们总结一下，给自己做个备忘，也给后来人一些帮助。
