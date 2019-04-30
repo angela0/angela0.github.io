@@ -4,6 +4,9 @@ title:  "在 Linux 中 gzip 一个文件夹"
 data: 2019-04-18
 categories:
 - Howto
+tags:
+- Linux
+- 命令行
 ---
 
 （注：针对 Beginner 的小文，老司机不用点进来了）你是否想过使用 gzip 压缩一个文件夹呢？如果你这样做，会看到一个大大的错误：
