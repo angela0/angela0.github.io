@@ -339,7 +339,7 @@ $ exec 3<&-
 
 ```
 $ touch /tmp/output.txt
-$ exec 4>&/tmp/output.txt
+$ exec 4>/tmp/output.txt
 ```
 
 ![](/assets/img/3b6ec939d63cea12774f60c9c75d3928/017.png)
